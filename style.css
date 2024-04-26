@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+#searchMain {
+    font-size: 30px;
+}
+
+.searchMovies {
+    font-size: 20px;
+    font-weight: lighter;
+    max-height: 370px;
+    overflow-y: auto;
+    z-index: 9;
+}
+
+.movie {
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.movie:hover {
+    color: #000;
+    background-color: #fff !important;
+}
+
+.searchButton {
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 13px 18px;
+}
+
+.card img {
+    max-height: 300px;
+}
+
+.movieDetails {
+    flex-basis: 35%;
+}
+
+.movieDetails h2 {
+    color: #d4aa11;
+    font-weight: bold;
+}
+
+.movieDetails .rating {
+    background-color: #d4aa11;
+    /* font-weight: bold; */
+    padding: 5px 7px;
+    border-radius: 7px;
+}
+
+.Genere {
+    background: rgba(128, 128, 128, 0.717);
+    border-radius: 8px;
+    width: fit-content;
+
+}
+
+.colorYellow {
+    color: #d4aa11;
+}
